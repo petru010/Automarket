@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoMarket</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--colectie custom de iconite de font-uri-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" />
+
+    <!--link spre fisierul css-->
+    <link href="css\style.css" rel="stylesheet" />
+</head>
+
+
+
+<body>
+
+    <!--inceputul sectiunii header-->
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"> <span>auto</span>market</a>
+
+        <nav class="navbar">
+            <a href="#home">acasă</a>
+            <a href="#vehicles">automobile</a>
+            <a href="#services">servicii</a>
+            <a href="#featured">recomandări</a>
+            <a href="#reviews">recenzii</a>
+            <a href="#contacts">contacte</a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">logare</button>
+            <i class="far fa-user"></i>
+        </div>
+
+    </header>
+
+    <!--sfarsitul sectiunii header-->
+    <!-- formular de logare -->
+    <div class="login-form-container">
+
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="">
+            <h3>intră în cont</h3>
+            <input type="email" placeholder="email" class="box" />
+            <input type="password" placeholder="parola" class="box" />
+            <p>ați uitat parola? <a href="#">click aici</a></p>
+            <input type="submit" value="logare" class="btn" />
+            <p>sau logați-vă prin</p>
+            <div class="buttons">
+                <a href="#" class="btn">google</a>
+                <a href="#" class="btn">facebook</a>
+            </div>
+            <p>nu ai cont? <a href="#">creează un cont nou</a></p>
+        </form>
+
+    </div>
+
+    <!-- secțiunea acasă se începe -->
+
+    <section class="home" id="home">
+
+        <h1 class="home-parallax" data-speed="-2">gasește mașina ta</h1>
+        <img class="home-parallax" data-speed="5" src="images/home-img.png" alt="" />
+        <a href="#vehicles" class="btn home-parallax" data-speed="7">descoperă oferte</a>
+
+    </section>
+
+    <!-- secțiunea acasă se termină -->
+    <!-- secțiunea iconițe se începe -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>150+</h3>
+                <p>filiale</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4770+</h3>
+                <p>mașini vândute</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>590+</h3>
+                <p>clienți mulțumiți</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>890+</h3>
+                <p>automobile noi</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- secțiunea iconițe se termină -->
+    <!-- secțiunea automobile se începe -->
+
+    <section id="vehicles" class="vehicles">
+
+        <h1 class="heading"> automobile <span>recomandate</span></h1>
+
+        <div class="swiper vehicles-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle-1.png" alt="" />
+                    <div class="content">
+                        <h3>Mercedes-Benz ML</h3>
+                        <div class="price"><span>preț: </span> 55000$/- </div>
+                        <p>
+                            second-hand
+                            <span class="fas fa-circle"></span> 2018
+                            <span class="fas fa-circle"></span> automat
+                            <span class="fas fa-circle"></span> diesel
+                            <span class="fas fa-circle"></span> 50,000 km
+                        </p>
+                        <a href="#" class="btn">cumpără</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle-2.png" alt="" />
+                    <div class="content">
+                        <h3>Mitsubishi Outlander</h3>
+                        <div class="price"><span>preț: </span> 35000$/- </div>
+                        <p>
+                            nou
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> automat
+                            <span class="fas fa-circle"></span> hibrid
+                            <span class="fas fa-circle"></span> 0 km
+                        </p>
+                        <a href="#" class="btn">cumpără</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle-3.png" alt="" />
+                    <div class="content">
+                        <h3>Toyota Sequoia</h3>
+                        <div class="price"><span>preț: </span> 60000$/- </div>
+                        <p>
+                            nou
+                            <span class="fas fa-circle"></span> 2023
+                            <span class="fas fa-circle"></span> automat
+                            <span class="fas fa-circle"></span> benzină
+                            <span class="fas fa-circle"></span> 0 km
+                        </p>
+                        <a href="#" class="btn">cumpără</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle-4.png" alt="" />
+                    <div class="content">
+                        <h3>BMW X7</h3>
+                        <div class="price"><span>preț: </span> 75000$/- </div>
+                        <p>
+                            nou
+                            <span class="fas fa-circle"></span> 2023
+                            <span class="fas fa-circle"></span> automat
+                            <span class="fas fa-circle"></span> diesel
+                            <span class="fas fa-circle"></span> 0 km
+                        </p>
+                        <a href="#" class="btn">cumpără</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle-5.png" alt="" />
+                    <div class="content">
+                        <h3>Toyota FJ Cruiser</h3>
+                        <div class="price"><span>preț: </span> 45000$/- </div>
+                        <p>
+                            nou
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> manual
+                            <span class="fas fa-circle"></span> benzină
+                            <span class="fas fa-circle"></span> 0 km
+                        </p>
+                        <a href="#" class="btn">cumpără</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle-6.png" alt="" />
+                    <div class="content">
+                        <h3>Volkswagen Polo</h3>
+                        <div class="price"><span>preț: </span> 18000$/- </div>
+                        <p>
+                            nou
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automat
+                            <span class="fas fa-circle"></span> benzină
+                            <span class="fas fa-circle"></span> 0 km
+                        </p>
+                        <a href="#" class="btn">cumpără</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- secțiunea automobile se termină -->
+    <!-- secțiunea servicii se începe -->
+
+    <section id="services" class="services">
+
+        <h1 class="heading">Serviciile <span>noastre</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>vânzări auto</h3>
+                <p>Descoperă cele mai noi modele de mașini, adaptate nevoilor tale. Oferim consultanță personalizată pentru a găsi vehiculul perfect.</p>
+                <a href="#" class="btn">detalii</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>piese auto</h3>
+                <p>Piese auto originale și aftermarket pentru toate mărcile. Asigurăm calitate și durabilitate pentru a menține mașina în stare optimă.</p>
+                <a href="#" class="btn">detalii</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>asigurări auto</h3>
+                <p>Protejează-ți vehiculul cu o asigurare completă. Consultanții noștri îți oferă cele mai bune soluții de asigurare auto.</p>
+                <a href="#" class="btn">detalii</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-battery"></i>
+                <h3>înlocuirea bateriilor</h3>
+                <p>Baterii auto de calitate superioară, instalate rapid și eficient. Revitalizează performanța vehiculului tău cu baterii fiabile.</p>
+                <a href="#" class="btn">detalii</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>înlocuirea consumabilelor</h3>
+                <p>Schimb rapid și eficient pentru consumabile esențiale, precum uleiuri, filtre și lichide. Menține motorul în cea mai bună formă.</p>
+                <a href="#" class="btn">detalii</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>asistență 24/7</h3>
+                <p>Serviciu de asistență non-stop pentru orice urgență auto. Suntem aici să te ajutăm oriunde și oricând.</p>
+                <a href="#" class="btn">detalii</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- secțiunea servicii se termină -->
+    <!-- secțiunea mașini rulate se începe -->
+
+    <section id="featured" class="featured">
+
+        <h1 class="heading"> <span>automobile </span> rulate </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/car-1.png" alt="" />
+                    <h3>Range Rover Evoque</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$45,000/-</div>
+                    <a href="#" class="btn">cumpără</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car-2.png" alt="" />
+                    <h3>Ford Focus ST</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$22,000/-</div>
+                    <a href="#" class="btn">cumpără</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car-3.png" alt="" />
+                    <h3>Audi A5 ABT</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$50,000/-</div>
+                    <a href="#" class="btn">cumpără</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car-4.png" alt="" />
+                    <h3>Audi S6</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$65,000/-</div>
+                    <a href="#" class="btn">cumpără</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/car-5.png" alt="" />
+                    <h3>Ford Mustang Shelby GT500</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$70,000/-</div>
+                    <a href="#" class="btn">cumpără</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car-6.png" alt="" />
+                    <h3>Mercedes-Benz SL</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$76,000/-</div>
+                    <a href="#" class="btn">cumpără</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car-7.png" alt="" />
+                    <h3>Aston Martin V12 Zagato</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$98,000/-</div>
+                    <a href="#" class="btn">cumpără</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car-8.png" alt="" />
+                    <h3>BMW Seria 1</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$20,000/-</div>
+                    <a href="#" class="btn">cumpără</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- secțiunea mașini rulate se termină -->
+    <!-- secțiunea noutăți se începe -->
+
+    <section class="newsletter">
+
+        <h3>află primul despre ofertele noastre exclusive.</h3>
+
+        <p>Fii mereu la curent cu ultimele noastre promoții și descoperă ofertele exclusive disponibile doar pentru abonații noștri.</p>
+
+        <form action="">
+            <input type="email" placeholder="introdu email-ul" name="" id="" />
+            <input type="submit" class="subscribe" name="" id="" value="trimite" />
+        </form>
+
+    </section>
+
+    <!-- secțiunea noutăți se termină -->
+    <!-- secțiunea recenzii se începe -->
+
+    <section id="reviews" class="reviews">
+
+        <h1 class="heading"> recenziile <span>clienților</span></h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-1.jpg" alt="" />
+                    <div class="content">
+                        <p>Am avut o experiență excelentă la acest magazin auto! Echipa a fost foarte profesionistă și m-a ajutat să găsesc mașina perfectă pentru nevoile mele. Recomand cu căldură tuturor celor care caută o mașină de calitate.</p>
+                        <h3>Popovici Ion</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-2.jpg" alt="" />
+                    <div class="content">
+                        <p>Am cumpărat o mașină second-hand de aici și sunt foarte mulțumit. Mașina este într-o stare excelentă, iar prețul a fost foarte bun comparativ cu alte magazine. Serviciul clienți este de nota 10!</p> 
+                        <h3>Vasilescu Mihai</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-3.jpg" alt="" />
+                    <div class="content">
+                        <p>Sunt impresionat de varietatea de mașini disponibile în acest magazin. Am reușit să aleg din mai multe modele care erau într-o stare excelentă și la prețuri accesibile. Mulțumesc echipei pentru profesionalism!</p> 
+                        <h3>Georgescu Andrei</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-4.jpg" alt="" />
+                    <div class="content">
+                        <p>O experiență plăcută și fără probleme. Am găsit exact ce căutam, iar procesul de achiziție a fost simplu și rapid. Personalul a fost foarte amabil și mi-a oferit toate informațiile necesare.</p>
+                        <h3>Radu Elena</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-5.jpg" alt="" />
+                    <div class="content">
+                        <p>Recomand acest magazin auto! Am fost foarte bine consiliat și am găsit un model care îmi depășește așteptările. Mulțumesc echipei pentru răbdare și suport!</p>
+                        <h3>Stoian Maria</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/pic-6.jpg" alt="" />
+                    <div class="content">
+                        <p>O echipă foarte profesionistă și un magazin bine organizat. Am apreciat consultanța detaliată și opțiunile variate de finanțare. M-a ajutat mult să iau decizia potrivită!</p>
+                        <h3>Iliescu Dan</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- secțiunea recenzii se termină -->
+    <!-- secțiunea contacte se începe -->
+
+    <section id="contacts" class="contact">
+
+        <h1 class="heading"> <span>contactează</span>-ne </h1>
+
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21754.581334458977!2d28.812413374316417!3d47.033898900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97d741a52b6bd%3A0xce780a4e48c6e3ef!2sCP-AUTOMARKET!5e0!3m2!1sru!2s!4v1730813508072!5m2!1sru!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>scrie-ne un mesaj</h3>
+                <input type="text" placeholder="nume" class="box" />
+                <input type="email" placeholder="e-mail" class="box" />
+                <input type="number" placeholder="telefon" class="box" />
+                <textarea placeholder="mesaj" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="trimite mesajul" class="btn" />
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- secțiunea contacte se termină -->
+    <!-- secțiunea de subsol se începe -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>filialele noastre</h3>
+                <a href="https://maps.app.goo.gl/BvDTuQpvLCrmLSp66" target="_blank"><i class="fas fa-map-marker-alt"></i> România </a>
+                <a href="https://maps.app.goo.gl/BWTxj7KbnASV4Kco9" target="_blank"><i class="fas fa-map-marker-alt"></i> Franța </a>
+                <a href="https://maps.app.goo.gl/LUFCGyoy5CiUr3CV9" target="_blank"><i class="fas fa-map-marker-alt"></i> Germania </a>
+                <a href="https://maps.app.goo.gl/xzEkUCXBWEo6ThyS6" target="_blank"><i class="fas fa-map-marker-alt"></i> Italia </a>
+                <a href="https://maps.app.goo.gl/iJ26rQ5Z1QXJveui6" target="_blank"><i class="fas fa-map-marker-alt"></i> Ucraina </a>
+            </div>
+
+            <div class="box">
+                <h3>link-uri scurte</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i> acasă </a>
+                <a href="#vehicles"><i class="fas fa-arrow-right"></i> automobile </a>
+                <a href="#services"><i class="fas fa-arrow-right"></i> servicii </a>
+                <a href="#featured"><i class="fas fa-arrow-right"></i> recomandări </a>
+                <a href="#reviews"><i class="fas fa-arrow-right"></i> recenzii </a>
+                <a href="#contacts"><i class="fas fa-arrow-right"></i> contacte </a>
+            </div>
+
+            <div class="box">
+                <h3>unde ne găsești</h3>
+                <a href="tel:0 (68) 800 910"><i class="fas fa-phone"></i> 0 (68) 800 910 </a>
+                <a href="tel:0 (68) 800 921"><i class="fas fa-phone"></i> 0 (68) 800 921 </a>
+                <a href="mailto:suport@automarket.md"><i class="fas fa-envelope"></i> suport@automarket.md </a>
+                <a href="https://g.co/kgs/7c5auyx"><i class="fas fa-map-marker-alt"></i> Strada Calea Moşilor 24, MD-2024, Chișinău </a>
+            </div>
+
+            <div class="box">
+                <h3>rețele de socializare</h3>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook </a>
+                <a href="https://www.x.com" target="_blank"><i class="fab fa-twitter"></i> Twitter </a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram </a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> Linkedin </a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i> Pinterest </a>
+            </div>
+
+        </div>
+
+        <div class="credit">creat de Ceban Petru(INFA-232) | toate drepturile rezervate</div>
+
+    </section>
+
+    <!-- secțiunea de subsol se termină -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--link spre fisierul js-->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
